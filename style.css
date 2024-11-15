@@ -52,6 +52,27 @@ span{
     font-size: .8rem;
 }
 
+.cronometro {
+    #btn{
+        border: none;
+        display: flex;
+
+        margin-right: 2rem;
+        background-color: rgba(0, 0, 0, 0.9);
+
+        padding: 1rem;
+        border-radius: .5rem;
+
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    #btn:hover {
+        border: 2px solid black;
+        transition: .5s;
+    }
+}
+
 @media(max-width: 600px){
     body {
         overflow: hidden;
