@@ -52,3 +52,17 @@ span{
     font-size: .8rem;
 }
 
+@media(max-width: 600px){
+    body {
+        overflow: hidden;
+    }
+
+    #relogio {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .container {
+        width: 7rem;
+    }
+}
