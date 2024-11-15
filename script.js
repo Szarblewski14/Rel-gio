@@ -19,3 +19,11 @@ const relogio = setInterval(function time (){
     segundos.textContent = seconds;
 
 })
+
+function newPage (){
+    window.location = 'new.html';
+}
+
+function voltarHtml (){
+    window.location = 'index.html';
+}
