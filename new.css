@@ -54,26 +54,89 @@ span{
 
 .cronometro {
     #btn{
-        border: none;
-        display: flex;
-        color: white;
-        font-weight: bolder;
-        font-size: 1rem;
-
-        margin-right: 2rem;
-        background-color: rgba(0, 0, 0, 0.9);
-
-        padding: 1rem;
-        border-radius: .5rem;
-
-        cursor: pointer;
-        border: 2px solid white;
+        margin-bottom: 2rem;
     }
 
     #btn:hover {
         border: 2px solid black;
         transition: .5s;
     }
+}
+
+#go {
+    width: 7rem;
+    border: none;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    justify-content: center;
+
+    margin-right: 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    padding: 1rem;
+    border-radius: .5rem;
+
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#stop {
+    justify-content: center;
+    width: 7rem;
+    border: none;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+
+    margin-right: 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    padding: 1rem;
+    border-radius: .5rem;
+
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#continuar {
+    width: 7rem;
+    border: none;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    justify-content: center;
+
+    margin-right: 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    padding: 1rem;
+    border-radius: .5rem;
+
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#reiniciar {
+    width: 7rem;
+    border: none;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    justify-content: center;
+
+    margin-right: 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    padding: 1rem;
+    border-radius: .5rem;
+
+    cursor: pointer;
+    border: 2px solid white;
 }
 
 @media(max-width: 600px){
