@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(#FEFEFE 35%, #888888);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12.5rem;
+    width: 34.4rem;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.container {
+    height: 10.6rem;
+    width: 9.3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+
+    background-color: rgba(0, 0, 0, 0.904);
+    color: #fff;
+
+    letter-spacing: 2px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border: .5rem;
+}
+
+span{
+    font-size: 3.7rem;
+    font-weight: bolder;
+
+}
+
+#tempo{
+    font-size: .8rem;
+}
+
