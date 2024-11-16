@@ -16,46 +16,48 @@
 
 <body>
 
+
     <div class="cronometro">
-        <button id="btn" onclick="voltarHtml()"> Voltar </button>
-
-        <div>
-            <button id="go">Iniciar</button>
+            <button id="btn" onclick="voltarHtml()"> Voltar </button>
+    
+            <div>
+                <button id="go">Iniciar</button>
+            </div>
+    
+            <div>
+                <button id="stop">Parar</button>
+            </div>
+            
+            <div>
+                <button id="continuar">Continuar</button>
+            </div>
+    
+            <div>
+                <button id="reiniciar">Reiniciar</button>
+            </div>
+    
+     </div>
+    
+        <div id="relogio">
+    
+            <div class="container">
+                <span id="minutosNew">00</span>
+                <span id="tempo">Minutos</span>
+            </div>
+    
+            <div class="container">
+                <span id="segundosNew">00</span>
+                <span id="tempo">Segundos</span>
+            </div>
+    
+            <div class="container">
+                <span id="milesimos">00</span>
+                <span id="tempo">Milésimos</span>
+            </div>
+            
+    
         </div>
-
-        <div>
-            <button id="stop">Parar</button>
-        </div>
-        
-        <div>
-            <button id="continuar">Continuar</button>
-        </div>
-
-        <div>
-            <button id="reiniciar">Reiniciar</button>
-        </div>
-
-    </div>
-
-    <div id="relogio">
-
-        <div class="container">
-            <span id="minutosNew">00</span>
-            <span id="tempo">Minutos</span>
-        </div>
-
-        <div class="container">
-            <span id="segundosNew">00</span>
-            <span id="tempo">Segundos</span>
-        </div>
-
-        <div class="container">
-            <span id="milesimos">00</span>
-            <span id="tempo">Milésimos</span>
-        </div>
-        
-
-    </div>
+    
 
 
     <script src="script.js"></script>

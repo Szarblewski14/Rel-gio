@@ -86,4 +86,10 @@ span{
     .container {
         width: 7rem;
     }
+
+    #btn {
+        position: absolute;
+        margin-top: 8rem;
+        margin-left: 9rem;
+    }
 }
