@@ -55,18 +55,25 @@ span{
 #btn {
     display: flex;
     margin-bottom: 1rem;
+
     border: none;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.644);
     font-weight: bolder;
     color: rgba(0, 0, 0, 0.781);
+
     font-size: 1rem;
-    border-radius: .2rem;
+    border-radius: .5rem;
     width: 6rem;
     justify-content: center;
-    padding: 1rem;
+    align-items: center;
+    padding: .5rem;
     cursor: pointer;
     box-shadow: 2px 2px 10px #97949480;
+}
+#btn:hover {
+    border: 1px solid  #b3adad;
+    transition: .5s;
 }
 
 .cronometro{
@@ -89,7 +96,11 @@ span{
   color: rgba(0, 0, 0, 0.781);
   margin-bottom: 1rem;
   justify-content: center;
+}
 
+#go:hover{
+    border: 1px solid  #b3adad;
+    transition: .5s;
 }
 
 #stop {
@@ -104,6 +115,12 @@ span{
     font-weight: bolder;
     color: rgba(0, 0, 0, 0.781);
     margin-bottom: 1rem;
+    justify-content: center;
+}
+
+#stop:hover{
+    border: 1px solid  #b3adad;
+    transition: .5s;
 }
 
 #continuar {
@@ -118,6 +135,12 @@ span{
     font-weight: bolder;
     color: rgba(0, 0, 0, 0.781);
     margin-bottom: 1rem;
+    justify-content: center;
+}
+
+#continuar:hover{
+    border: 1px solid  #b3adad;
+    transition: .5s;
 }
 
 #reiniciar {
@@ -133,6 +156,11 @@ span{
     color: rgba(0, 0, 0, 0.781);
     margin-bottom: 1rem;
     justify-content: center;
+}
+
+#reiniciar:hover{
+    border: 1px solid  #b3adad;
+    transition: .5s;
 }
 
 @media(max-width: 600px){

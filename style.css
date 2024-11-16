@@ -58,17 +58,19 @@ span{
         display: flex;
 
         margin-right: 2rem;
-        background-color: rgba(0, 0, 0, 0.9);
+        margin-left: 12rem;
+        background: transparent;
 
         padding: 1rem;
         border-radius: .5rem;
 
         cursor: pointer;
         border: 2px solid white;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
     }
 
     #btn:hover {
-        border: 2px solid black;
+        border: 2px solid #b3adad;
         transition: .5s;
     }
 }
