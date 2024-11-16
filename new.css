@@ -96,6 +96,7 @@ span{
   color: rgba(0, 0, 0, 0.781);
   margin-bottom: 1rem;
   justify-content: center;
+  border: 1px solid white; 
 }
 
 #go:hover{
@@ -116,6 +117,7 @@ span{
     color: rgba(0, 0, 0, 0.781);
     margin-bottom: 1rem;
     justify-content: center;
+    border: 1px solid white;
 }
 
 #stop:hover{
@@ -135,7 +137,8 @@ span{
     font-weight: bolder;
     color: rgba(0, 0, 0, 0.781);
     margin-bottom: 1rem;
-    justify-content: center;    
+    justify-content: center;   
+    border: 1px solid white; 
 }
 
 #continuar:hover{
@@ -156,6 +159,7 @@ span{
     color: rgba(0, 0, 0, 0.781);
     margin-bottom: 1rem;
     justify-content: center;
+    border: 1px solid white;
 }
 
 #reiniciar:hover{
