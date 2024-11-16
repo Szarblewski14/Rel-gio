@@ -135,7 +135,7 @@ span{
     font-weight: bolder;
     color: rgba(0, 0, 0, 0.781);
     margin-bottom: 1rem;
-    justify-content: center;
+    justify-content: center;    
 }
 
 #continuar:hover{
@@ -175,9 +175,14 @@ span{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: .5rem;
+        gap: .1rem;
         position: absolute;
         margin-top: 23rem;
+    }
+
+    #btn {
+        display: flex;
+        margin-right: 1.5rem;
     }
 
     #go{
