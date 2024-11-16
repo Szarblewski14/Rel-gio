@@ -42,6 +42,25 @@ body {
     border: .5rem;
 }
 
+#btn{
+    display: flex;
+    margin-right: 2rem;
+
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+
+    cursor: pointer;
+
+    background: transparent;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+}
+
+#btn:hover{
+    border: 1px solid rgb(180, 179, 179);
+    transition: .5s;
+}
+
 span{
     font-size: 3.7rem;
     font-weight: bolder;
